@@ -1,0 +1,86 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6c6a0806-b4a1-49ad-b1a5-01c6692822ee</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Multiple_File_Creatin.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonBasicsProgramExercises</Name>
+    <RootNamespace>PythonBasicsProgramExercises</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Multiple_File_Creatin.py" />
+    <Compile Include="Program1.py" />
+    <Compile Include="Program10.py" />
+    <Compile Include="Program11.py" />
+    <Compile Include="Program12.py" />
+    <Compile Include="Program13.py" />
+    <Compile Include="Program14.py" />
+    <Compile Include="Program15.py" />
+    <Compile Include="Program16.py" />
+    <Compile Include="Program17.py" />
+    <Compile Include="Program18.py" />
+    <Compile Include="Program19.py" />
+    <Compile Include="Program2.py" />
+    <Compile Include="Program20.py" />
+    <Compile Include="Program21.py" />
+    <Compile Include="Program22.py" />
+    <Compile Include="Program23.py" />
+    <Compile Include="Program24.py" />
+    <Compile Include="Program25.py" />
+    <Compile Include="Program26.py" />
+    <Compile Include="Program27.py" />
+    <Compile Include="Program28.py" />
+    <Compile Include="Program29.py" />
+    <Compile Include="Program3.py" />
+    <Compile Include="Program30.py" />
+    <Compile Include="Program31.py" />
+    <Compile Include="Program32.py" />
+    <Compile Include="Program33.py" />
+    <Compile Include="Program34.py" />
+    <Compile Include="Program35.py" />
+    <Compile Include="Program36.py" />
+    <Compile Include="Program37.py" />
+    <Compile Include="Program38.py" />
+    <Compile Include="Program39.py" />
+    <Compile Include="Program4.py" />
+    <Compile Include="Program40.py" />
+    <Compile Include="Program41.py" />
+    <Compile Include="Program42.py" />
+    <Compile Include="Program43.py" />
+    <Compile Include="Program44.py" />
+    <Compile Include="Program45.py" />
+    <Compile Include="Program46.py" />
+    <Compile Include="Program47.py" />
+    <Compile Include="Program48.py" />
+    <Compile Include="Program49.py" />
+    <Compile Include="Program5.py" />
+    <Compile Include="Program50.py" />
+    <Compile Include="Program51.py" />
+    <Compile Include="Program6.py" />
+    <Compile Include="Program7.py" />
+    <Compile Include="Program8.py" />
+    <Compile Include="Program9.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
