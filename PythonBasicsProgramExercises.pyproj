@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6c6a0806-b4a1-49ad-b1a5-01c6692822ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Multiple_File_Creatin.py</StartupFile>
+    <StartupFile>Simple_Rat_Intrest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Multiple_File_Creatin.py" />
-    <Compile Include="Program1.py" />
-    <Compile Include="Program10.py" />
-    <Compile Include="Program11.py" />
+    <Compile Include="Sum_Tow_Number.py" />
+    <Compile Include="Factorial_Recursive.py" />
+    <Compile Include="Simple_Rat_Intrest.py" />
     <Compile Include="Program12.py" />
     <Compile Include="Program13.py" />
     <Compile Include="Program14.py" />
@@ -33,7 +33,7 @@
     <Compile Include="Program17.py" />
     <Compile Include="Program18.py" />
     <Compile Include="Program19.py" />
-    <Compile Include="Program2.py" />
+    <Compile Include="Maximum_number.py" />
     <Compile Include="Program20.py" />
     <Compile Include="Program21.py" />
     <Compile Include="Program22.py" />

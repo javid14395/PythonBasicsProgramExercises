@@ -11,3 +11,5 @@ for i in range(file1):
 
     os.system(f"echo > {name1}{k}{extention1}")
     k += 1
+
+print("Follow : https://github.com/javid14395")
